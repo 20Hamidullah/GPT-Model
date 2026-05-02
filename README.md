@@ -19,7 +19,7 @@ A hands-on notebook covering the fundamentals of large language models, from tok
 
 ## Overview
 
-This notebook explores pre-trained language models with a focus on GPT-2. It covers tokenisation via Byte Pair Encoding, language model evaluation using perplexity, and practical text generation using the HuggingFace `transformers` library. Three decoding strategies are implemented and compared — beam search, top-k sampling, and top-p (nucleus) sampling.
+This notebook explores pre-trained language models with a focus on GPT-2. It covers tokenisation via Byte Pair Encoding, language model evaluation using perplexity, and practical text generation using the HuggingFace `transformers` library. Three decoding strategies are implemented and compared beam search, top-k sampling, and top-p (nucleus) sampling.
 
 ---
 
@@ -167,7 +167,7 @@ jupyter notebook GPT-Model.ipynb
 ## Usage
 
 1. Open `GPT-Model.ipynb` in Jupyter or JupyterLab.
-2. Run cells sequentially — the BPE and perplexity sections are self-contained.
+2. Run cells sequentially, the BPE and perplexity sections are self-contained.
 3. For the GPT-2 section, enter a text prompt when prompted and observe how each decoding strategy generates different continuations.
 
 ---
@@ -183,9 +183,8 @@ jupyter notebook GPT-Model.ipynb
 | Top-p Sampling | Adaptive sampling from the minimum token set covering 92% probability mass |
 
 ---
+---
+## Author
 
-## References
-
-- Radford, A. et al. (2019). [Language Models are Unsupervised Multitask Learners](https://openai.com/research/language-unsupervised). OpenAI.
-- HuggingFace `transformers` documentation: [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
-- Sennrich, R. et al. (2016). [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909). ACL.
+**Sayed Hamidullah Fazlly**  
+[Connect with me on LinkedIn](www.linkedin.com/in/sayed-hamidullah-fazlly-382489170)
